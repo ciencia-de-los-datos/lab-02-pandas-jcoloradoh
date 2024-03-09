@@ -246,7 +246,7 @@ def pregunta_13():
     Respuesta_13 = DF_Fusion.groupby('_c1')['_c5b'].sum()
     
     return Respuesta_13
-'''
+#'''
 respuesta_01 = pregunta_01()
 print(f"La respuesta es: {respuesta_01}")
 respuesta_02 = pregunta_02()
@@ -273,4 +273,4 @@ respuesta_12 = pregunta_12()
 print(f"La respuesta es: {respuesta_12}")
 respuesta_13 = pregunta_13()
 print(f"La respuesta es: {respuesta_13}")
-'''
+#'''
